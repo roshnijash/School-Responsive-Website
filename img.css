@@ -1,0 +1,70 @@
+nav div a {
+  display: block;
+  color: rgb(251, 255, 0);
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration:none ;
+}
+
+
+
+nav div a:hover {
+  background-color: rgb(212, 160, 252);
+}
+
+
+
+.myborder{
+    /* border: 10px solid ; */
+    padding: 10px;
+    /* background-color: rgba(255, 217, 0, 0.503); */
+
+}
+.container {
+  position: relative;
+  /* position: static; */
+  width: 100%;
+  height: auto;
+  /* position: absolute; */
+}
+
+.image {
+  /* position: relative; */
+  align-self: center;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  /* position: relative; */
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  /* background-color: #008CBA; */
+  background-image: linear-gradient(to bottom right, rgb(4, 0, 115), rgb(255, 0, 136));
+/* background-image: linear-gradient(to bottom right, red, yellow); */
+
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}

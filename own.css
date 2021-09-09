@@ -1,0 +1,414 @@
+/* body{
+
+  background-image: linear-gradient( rgb(193, 255, 181),rgba(222, 255, 103, 0.5)), url("grow.png");
+  background-repeat: no-repeat;
+}
+ */
+                           
+ 
+ /* mode............................................. */
+ /* body {
+ 
+  background-color: white;
+  color: black;
+ 
+}
+
+.dark-mode {
+  background-color: black;
+  color: rgb(255, 158, 158);
+} */
+
+
+
+
+
+
+nav div a {
+  display: block;
+  color: rgb(251, 255, 0);
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration:none ;
+}
+
+nav div a:hover {
+  background-color: rgb(160, 183, 252);
+  color: rgb(0, 0, 0);
+}
+
+
+
+
+
+
+
+  
+  /* #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 75%; 
+    min-height: 75%;
+  }
+  
+  .content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+
+  #myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #myBtn:hover {
+    background: #ddd;
+    color: black;
+  } */
+
+  div a {
+    display: block;
+    color: rgb(255, 0, 0);
+    /* text-align: left; */
+    padding: 14px 16px;
+    text-decoration:none ;
+  }
+  
+
+
+
+
+
+/* ----------------------------------------------- */
+
+  /* toogle */
+
+  #myDIV {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: rgb(238, 251, 255);
+    margin-top: 20px;
+  }
+
+  
+  #regForm {
+    /* background-color: #0c087d; */
+    
+background-image: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(255, 255, 255));
+    color: #000000;
+    margin: 100px auto;
+    font-family: Raleway;
+    padding: 40px;
+    width: 70%;
+    min-width: 300px;
+  }
+  
+  h1 {
+    text-align: center;  
+  }
+  
+  input {
+    padding: 10px;
+    width: 100%;
+    font-size: 17px;
+    font-family: Raleway;
+    border: 1px solid #aaaaaa;
+  }
+  
+  /* Mark input boxes that gets an error on validation: */
+  input.invalid {
+    background-color: #ffdddd;
+  }
+  
+  /* Hide all steps by default: */
+  .tab {
+    display: none;
+  }
+  
+  button {
+    background-color: #35fca5;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-family: Raleway;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  #prevBtn {
+    background-color: #bbbbbb;
+    border-radius: 5px;
+  }
+  
+  /* Make circles that indicate the steps of the form: */
+  .step {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border-radius: 5px;
+    border: none;  
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+  }
+  
+  .step.active {
+    opacity: 1;
+  }
+  
+  /* Mark the steps that are finished and valid: */
+  .step.finish {
+    background-color: #04AA6D;
+  }
+
+
+/* --------------------------------------------------------------------------MODAL=---------------------- */
+
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  } 
+/* .............................................................HERO IMG BUTTON .............................................................................................   */
+
+
+
+
+
+.Abot{
+  background: rgb(204, 3, 3);
+  /* background: rgb(33, 253, 213); */
+    padding: 20px;
+    /* width: 30px; */
+    border-radius: 5px;
+    color: #fff700;
+    font-size: 20px;
+    border: none;   
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ............................................................// HERO IMG BUTTON .............................................................................................   */
+
+
+/* .................................HIDE AND SHOW...............................................CLASSSSSSSSSSSSSSSSSSSSSSSSS................................................................................... */
+
+
+
+
+.generalclass {
+  width: 100%;
+  color: #ffffff;
+  text-align: center;
+  background-color: #061732;
+  margin: 10px;
+  padding: 10px;
+  display: none;
+}
+
+
+.class {
+  width: 100%;
+  color: #ffffff;
+  text-align: center;
+  background-color: #423c3c;
+  margin: 2px;
+  padding: 10px;
+  display: none;
+}
+
+
+
+
+.button{
+  background: rgb(208, 17, 0);
+  /* background: rgb(33, 253, 213); */
+    padding: 20px;
+    border-radius: 5px;
+    color: #fff700;
+    font-size: 20px;
+    border: none;   
+    
+}
+
+
+
+.butn{
+  background: rgb(136, 255, 103);
+    padding: 10px;
+    border-radius: 5px;
+    color: #04397a;
+    font-size: 16px;
+    border: none;   
+    
+}
+
+.button:hover{
+  background: black;    
+}
+/* ..............................................IN ABOUT US THE TABS..................................................................................................................... */
+
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: rgba(151, 255, 198, 0.299);
+  /* background-image: linear-gradient(to bottom right, red, yellow); */
+  color: black;
+  float: left;
+  border: 5px;
+  border-radius: 5px;
+  border-color: red;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  /* padding: auto; */
+  font-size: 12px;
+  width: 18%;
+  font-variant: initial;
+}
+
+.tablink:hover {
+  background-color: rgba(130, 238, 195, 0.626);
+ border-radius: 5px;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: black;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+/* #Home {background-color: white;}
+#News {background-color: white;}
+#Contact {background-color: white;}
+#About {background-color: white;} */
+
+.hp45TabsText2 {
+    margin-left: 10px;
+    position: relative;
+    top: -6px;
+    ;
+}
+
+
+
+ .heading {
+    font-size: 36px;
+    color: var(--text);
+    line-height: 25px;
+    letter-spacing: .2px;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+/* ......................................................HERO IMAGE......................................................................... */
+
+
+/* body, html {
+  height: 100%;
+} */
+
+/* The hero image */
+/* .hero-image {
+
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("p3.jpg");
+ */
+
+/* height: 50%; */
+/* class="d-block w-100"    */
+/* height: auto; */
+
+/* Position and center the image to scale nicely on all screens */
+/* background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+} */
+
+/* Place text in the middle of the image */
+.hero-text {
+/* text-align: center; */
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: rgb(0, 0, 0);
+}
+
+
+
+
+/* ................................................................FOOTER ..................................................................................................... */
